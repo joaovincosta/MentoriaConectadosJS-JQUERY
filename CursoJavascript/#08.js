@@ -1,10 +1,10 @@
 // Condicionais
 
-const sum = 1+1;
+const sum1 = 1+1;
 
-if (sum === 2) {
+if (sum1 === 2) {
     console.log("Sum is 2!");
-} else if (sum === 3) {
+} else if (sum1 === 3) {
     console.log("Sum is 3!")
 } else {
     console.log("Sum is not 2!");
@@ -12,14 +12,14 @@ if (sum === 2) {
 
 // && ||
 
-const sum1 = 2+2;
-const sum2 = 3+3;
+const sum2 = 2+2;
+const sum3 = 3+3;
 
-if (sum1 === 4 && sum2 === 6) {
+if (sum2 === 4 && sum3 === 6) {
     console.log("Sum1 is 4 and Sum2 is 6!");
 }
 
-if (sum1 === 4 || sum2 === 6) {
+if (sum2 === 4 || sum3 === 6) {
     console.log("Sum1 is 4 or Sum2 is 6!");
 }
 
@@ -39,7 +39,7 @@ console.log(number);
 
 //
 
-let number = sum === 2 ? 2 : 4;
+let number1 = sum === 2 ? 2 : 4;
 
 // 
 

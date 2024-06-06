@@ -18,7 +18,7 @@ console.log(sumValue);
 
 // Arrow functions
 
-function sumArrow = (a, b = 10) => {
+function sumArrow (a, b = 10) {
     return a + b
 }
 

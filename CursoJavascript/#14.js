@@ -27,8 +27,8 @@ window.console.log("eu sou o console")
         //para valores não preenchidos
         if (nameValue === "" || emailValue === "") {
             return alert("Please fill out all the fields!"); //prenenche todos os campos
-        }
-
+        };
+    })
 //
 
 //myForm.style.background = "red";

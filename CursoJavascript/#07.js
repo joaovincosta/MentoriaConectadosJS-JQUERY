@@ -6,7 +6,7 @@ for (let index = 0; index <= 10; index++) {
 
 // Loops com "for" em listas (jeito 1)
 
-const cars = ["Ferrari", "Tesla", "Mercedes"];
+const car1 = ["Ferrari", "Tesla", "Mercedes"];
 
 for (let i = 0; i < cars.length; i++) {
     console.log(cars[i]);
@@ -14,7 +14,7 @@ for (let i = 0; i < cars.length; i++) {
 
 // jeito 2
 
-const cars = ["Ferrari", "Tesla", "Mercedes"];
+const car2 = ["Ferrari", "Tesla", "Mercedes"];
 
 for (let car of cars) {
     console.log(car);
@@ -22,7 +22,7 @@ for (let car of cars) {
 
 // jeito 3
 
-const cars = ["Ferrari", "Tesla", "Mercedes"];
+const car3 = ["Ferrari", "Tesla", "Mercedes"];
 
 cars.forEach(function (car, index) {
     console.log(index);
