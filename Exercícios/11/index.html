@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     #resultado {
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #f0f0f0;
+    }
+    </style>
+</head>
+<body>
+    <label for="coeficienteA">Coeficiente a:</label>
+    <input type="number" id="coeficienteA" min="-9999" max="9999" required>
+    <br>
+    <label for="coeficienteB">Coeficiente b:</label>
+    <input type="number" id="coeficienteB" min="-9999" max="9999" required>
+    <br>
+    <label for="coeficienteC">Coeficiente c:</label>
+    <input type="number" id="coeficienteC" min="-9999" max="9999" required>
+    <br>
+    <button onclick="calcularDelta()">Calcular Δ (Delta)</button>
+    <div id="resultado"></div>
+    <script src="./main.js"></script>
+</body>
+</html>
